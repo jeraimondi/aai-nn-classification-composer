@@ -58,11 +58,19 @@ the duration of the piece. Considering this, we most commonly limit the duration
 with common feature and input sizes (e.g., 12x2000). We are able to visualize and compare the chroma features in an 
 image form for a few sample composers using the librosa package, such as for the following example.
 
+<div align='center'>
+<p><H3>Chroma Feature Example</H3></p>
+</div>
+
 <p align='center'>
 <img src='data/images/chroma_example.png' alt='Chroma feature example image.' />
 </p>
 
 The CNN model architecture can be seen in the following plot.
+
+<div align='center'>
+<p><H3>CNN Model Architecture</H3></p>
+</div>
 
 <p align='center'>
 <img src='data/images/cnn_architecture.png' alt='CNN model architecture image.' />
@@ -72,6 +80,10 @@ The LSTM architecture is designed for and works well with sequential data. For t
 multiple input features of beats and pitch class, each in parallel passing through their own input, LSTM, dense, and 
 flattening layers in Keras sequential models before being concatenated and passed through additional dense layers. The 
 LSTM model architecture can be seen in the following plot.
+
+<div align='center'>
+<p><H3>LSTM Model Architecture (Multiple Inputs)</H3></p>
+</div>
 
 <p align='center'>
 <img src='data/images/lstm_architecture.png' alt='LSTM model architecture image.' />
